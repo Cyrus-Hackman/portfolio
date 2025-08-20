@@ -1801,7 +1801,30 @@
 	<script src="js/jquery.preloadinator.min.js"></script>
 	<script src="js/vanilla-tilt.min.js"></script>
 	<script src="js/script.js"></script>
+<script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+
+<script>
+  emailjs.init("7mgRqzol8jOY84F5V"); // Your public key
+
+  const form = document.getElementById('fungi-contact');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_lzl2n6a', 'template_tqrghin', this)
+      .then(() => {
+        alert('Message sent successfully!');
+        form.reset();
+      })
+      .catch((error) => {
+        alert('Failed to send message. Please try again.', error.text);
+      });
+  });
+</script>
+
+
 </body>
 
 </html>
+
 
