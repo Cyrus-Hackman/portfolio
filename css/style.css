@@ -101,7 +101,7 @@
   background: #fd562a;
   color: #fff;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   text-transform: uppercase;
 }
 .btn-main:hover {
@@ -113,7 +113,7 @@
   background: transparent;
   color: #fff;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   text-transform: uppercase;
   border: 2px solid #fd562a;
 }
@@ -122,7 +122,7 @@
   color: #fff;
 }
 .btn-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   text-transform: uppercase;
 }
 /*navbar fixed styling */
@@ -205,7 +205,7 @@
   3. General Style 
 ************************************************************/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   color: #615978;
 }
@@ -243,7 +243,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   color: #222;
 }
 /* Dark Mode Styling */
@@ -296,7 +296,7 @@ h6 {
 .site-header a {
   color: #fff;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: bold;
 }
 .site-header a:hover,
@@ -979,7 +979,7 @@ h6 {
   margin-bottom: 12px;
 }
 .features-section h4 span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #615978;
   font-size: 70%;
   float: right;
@@ -1071,7 +1071,7 @@ h6 {
   display: block;
   margin-top: 8px;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #948daa;
 }
 .testimonial-section .quote-icon {
@@ -1134,7 +1134,7 @@ h6 {
 }
 .blog-section .post-meta li a {
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   text-transform: initial;
   transition: 0.3s;
@@ -1405,7 +1405,7 @@ h6 {
   font-size: 24px;
 }
 .contact-section a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #615978;
   text-transform: initial;
   transition: 0.3s;
@@ -1445,7 +1445,7 @@ h6 {
   box-shadow: none;
 }
 .contact-section button {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   text-transform: uppercase;
 }
 .contact-section .form-message p {
@@ -1586,7 +1586,7 @@ h6 {
   margin-bottom: 0;
 }
 .site-footer .footer-bottom ul a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #b0aac0;
   text-transform: capitalize;
   font-size: 16px;
